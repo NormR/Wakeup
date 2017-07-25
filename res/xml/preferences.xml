@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="set_debug_text"
+        android:title="@string/pref_title_set_debug_text"
+        android:summary="@string/pref_summary_set_debug_text" />
+     
+     <CheckBoxPreference
+         android:defaultValue="true"
+         android:key="set_notify"
+         android:title="Notification"
+         android:summary="Set Notification" />
+     
+    <CheckBoxPreference
+         android:defaultValue="true"
+         android:key="use_wake_lock"
+         android:title="Use Wake_Lock"
+         android:summary="Use Wake_lock to keep screen from going off" />
+    
+    <ListPreference
+        android:key="sensorCounts"
+        android:entries="@array/sensorCounts"
+        android:title="Sensor counts"
+        android:entryValues="@array/sensorCounts"
+        android:summary="Sensor counts before turning on screen"  />
+    
+     <ListPreference
+        android:key="frequencyOfPO"
+        android:entries="@array/freqNames"
+        android:title="Printout frequency" 
+        android:entryValues="@array/freqNames"
+        android:summary="Choose how often to print a value" />
+     
+</PreferenceScreen>

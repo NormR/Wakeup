@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/startSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="80dip"
+        android:layout_marginRight="80dip"
+        android:clickable="true"
+        android:text="Start/Stop WakeUp Sensor" >
+      
+    </Button>
+    
+    <TextView
+        android:id="@+id/message1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="80dip"
+        android:layout_below="@id/startSensor"
+        android:text="Message1"
+        >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/message2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="80dip"
+        android:layout_below="@id/message1"
+        android:text="Message2"
+        >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/message3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="80dip"
+        android:layout_below="@id/message2"
+        android:text="Message3"
+        >
+    </TextView>    
+    <TextView
+        android:id="@+id/message4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="80dip"
+        android:layout_below="@id/message3"
+        android:text=""
+        >    
+        
+    </TextView>
+</RelativeLayout>
